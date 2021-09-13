@@ -3,7 +3,7 @@ import os
 import random
 from easygui import *
 
-path = r"C:\Users\sakth\OneDrive\Desktop\python projects\encrypt"
+path = r"C:\Users"
 directory_list = list()
 for root, dirs, files in os.walk(path, topdown=False):
     for name in dirs:
